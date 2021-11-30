@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFA7EDB81A8C71C500D2123E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA7EDB71A8C71C500D2123E /* AppDelegate.swift */; };
+		EFA7EDBA1A8C71C500D2123E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA7EDB91A8C71C500D2123E /* FirstViewController.swift */; };
+		EFA7EDBC1A8C71C500D2123E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA7EDBB1A8C71C500D2123E /* SecondViewController.swift */; };
+		EFA7EDBF1A8C71C500D2123E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA7EDBD1A8C71C500D2123E /* Main.storyboard */; };
+		EFA7EDC11A8C71C500D2123E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA7EDC01A8C71C500D2123E /* Images.xcassets */; };
+		EFA7EDC41A8C71C500D2123E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA7EDC21A8C71C500D2123E /* LaunchScreen.xib */; };
+		EFA7EDD01A8C71C500D2123E /* PulsCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA7EDCF1A8C71C500D2123E /* PulsCalTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFA7EDCA1A8C71C500D2123E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA7EDAA1A8C71C500D2123E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFA7EDB11A8C71C500D2123E;
+			remoteInfo = PulsCal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFA7EDB21A8C71C500D2123E /* PulsCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulsCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA7EDB61A8C71C500D2123E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA7EDB71A8C71C500D2123E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFA7EDB91A8C71C500D2123E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EFA7EDBB1A8C71C500D2123E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EFA7EDBE1A8C71C500D2123E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFA7EDC01A8C71C500D2123E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFA7EDC31A8C71C500D2123E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFA7EDC91A8C71C500D2123E /* PulsCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulsCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA7EDCE1A8C71C500D2123E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA7EDCF1A8C71C500D2123E /* PulsCalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsCalTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFA7EDAF1A8C71C500D2123E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA7EDC61A8C71C500D2123E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFA7EDA91A8C71C500D2123E = {
+			isa = PBXGroup;
+			children = (
+				EFA7EDB41A8C71C500D2123E /* PulsCal */,
+				EFA7EDCC1A8C71C500D2123E /* PulsCalTests */,
+				EFA7EDB31A8C71C500D2123E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFA7EDB31A8C71C500D2123E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFA7EDB21A8C71C500D2123E /* PulsCal.app */,
+				EFA7EDC91A8C71C500D2123E /* PulsCalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA7EDB41A8C71C500D2123E /* PulsCal */ = {
+			isa = PBXGroup;
+			children = (
+				EFA7EDB71A8C71C500D2123E /* AppDelegate.swift */,
+				EFA7EDB91A8C71C500D2123E /* FirstViewController.swift */,
+				EFA7EDBB1A8C71C500D2123E /* SecondViewController.swift */,
+				EFA7EDBD1A8C71C500D2123E /* Main.storyboard */,
+				EFA7EDC01A8C71C500D2123E /* Images.xcassets */,
+				EFA7EDC21A8C71C500D2123E /* LaunchScreen.xib */,
+				EFA7EDB51A8C71C500D2123E /* Supporting Files */,
+			);
+			path = PulsCal;
+			sourceTree = "<group>";
+		};
+		EFA7EDB51A8C71C500D2123E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFA7EDB61A8C71C500D2123E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFA7EDCC1A8C71C500D2123E /* PulsCalTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFA7EDCF1A8C71C500D2123E /* PulsCalTests.swift */,
+				EFA7EDCD1A8C71C500D2123E /* Supporting Files */,
+			);
+			path = PulsCalTests;
+			sourceTree = "<group>";
+		};
+		EFA7EDCD1A8C71C500D2123E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFA7EDCE1A8C71C500D2123E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFA7EDB11A8C71C500D2123E /* PulsCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA7EDD31A8C71C500D2123E /* Build configuration list for PBXNativeTarget "PulsCal" */;
+			buildPhases = (
+				EFA7EDAE1A8C71C500D2123E /* Sources */,
+				EFA7EDAF1A8C71C500D2123E /* Frameworks */,
+				EFA7EDB01A8C71C500D2123E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PulsCal;
+			productName = PulsCal;
+			productReference = EFA7EDB21A8C71C500D2123E /* PulsCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFA7EDC81A8C71C500D2123E /* PulsCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA7EDD61A8C71C500D2123E /* Build configuration list for PBXNativeTarget "PulsCalTests" */;
+			buildPhases = (
+				EFA7EDC51A8C71C500D2123E /* Sources */,
+				EFA7EDC61A8C71C500D2123E /* Frameworks */,
+				EFA7EDC71A8C71C500D2123E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA7EDCB1A8C71C500D2123E /* PBXTargetDependency */,
+			);
+			name = PulsCalTests;
+			productName = PulsCalTests;
+			productReference = EFA7EDC91A8C71C500D2123E /* PulsCalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFA7EDAA1A8C71C500D2123E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = nagae;
+				TargetAttributes = {
+					EFA7EDB11A8C71C500D2123E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EFA7EDC81A8C71C500D2123E = {
+						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 1030;
+						TestTargetID = EFA7EDB11A8C71C500D2123E;
+					};
+				};
+			};
+			buildConfigurationList = EFA7EDAD1A8C71C500D2123E /* Build configuration list for PBXProject "PulsCal" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFA7EDA91A8C71C500D2123E;
+			productRefGroup = EFA7EDB31A8C71C500D2123E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFA7EDB11A8C71C500D2123E /* PulsCal */,
+				EFA7EDC81A8C71C500D2123E /* PulsCalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFA7EDB01A8C71C500D2123E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA7EDBF1A8C71C500D2123E /* Main.storyboard in Resources */,
+				EFA7EDC41A8C71C500D2123E /* LaunchScreen.xib in Resources */,
+				EFA7EDC11A8C71C500D2123E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA7EDC71A8C71C500D2123E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFA7EDAE1A8C71C500D2123E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA7EDBC1A8C71C500D2123E /* SecondViewController.swift in Sources */,
+				EFA7EDB81A8C71C500D2123E /* AppDelegate.swift in Sources */,
+				EFA7EDBA1A8C71C500D2123E /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA7EDC51A8C71C500D2123E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA7EDD01A8C71C500D2123E /* PulsCalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFA7EDCB1A8C71C500D2123E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFA7EDB11A8C71C500D2123E /* PulsCal */;
+			targetProxy = EFA7EDCA1A8C71C500D2123E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFA7EDBD1A8C71C500D2123E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA7EDBE1A8C71C500D2123E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFA7EDC21A8C71C500D2123E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA7EDC31A8C71C500D2123E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFA7EDD11A8C71C500D2123E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFA7EDD21A8C71C500D2123E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFA7EDD41A8C71C500D2123E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 3.2.3;
+				DEVELOPMENT_TEAM = N74LFUZRAV;
+				ENABLE_TESTABILITY = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				INFOPLIST_FILE = PulsCal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagae.PulsCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EFA7EDD51A8C71C500D2123E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 3.2.3;
+				DEVELOPMENT_TEAM = N74LFUZRAV;
+				ENABLE_TESTABILITY = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				INFOPLIST_FILE = PulsCal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagae.PulsCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EFA7EDD71A8C71C500D2123E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N74LFUZRAV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PulsCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nagae.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulsCal.app/PulsCal";
+			};
+			name = Debug;
+		};
+		EFA7EDD81A8C71C500D2123E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N74LFUZRAV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PulsCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nagae.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulsCal.app/PulsCal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFA7EDAD1A8C71C500D2123E /* Build configuration list for PBXProject "PulsCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA7EDD11A8C71C500D2123E /* Debug */,
+				EFA7EDD21A8C71C500D2123E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA7EDD31A8C71C500D2123E /* Build configuration list for PBXNativeTarget "PulsCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA7EDD41A8C71C500D2123E /* Debug */,
+				EFA7EDD51A8C71C500D2123E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA7EDD61A8C71C500D2123E /* Build configuration list for PBXNativeTarget "PulsCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA7EDD71A8C71C500D2123E /* Debug */,
+				EFA7EDD81A8C71C500D2123E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFA7EDAA1A8C71C500D2123E /* Project object */;
+}
